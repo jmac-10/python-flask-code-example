@@ -1,4 +1,4 @@
-This exercise was part of an interview process, but it's a good sample of python I wrote within the flask framework. See the instructions PDF for detail
+This exercise was part of an interview process, but it's a good sample of python I wrote within the flask framework. See the instructions PDF for details on what it is supposed to do.
 
 # remove duplicates
 run the remove_dupes.py script to clean the csv, if that wasnt
@@ -7,7 +7,10 @@ self explanatory.
 # run app
 install requirements by running `pip install -r reqirements.txt`
 in the project directory
-run app locally with `python app.py` from project directory
+run app dev server locally with `python app.py` from project directory
+
+# general search process
+The initial search (by first name) yields a list of hyperlinked full patient names. Following any of those links redirects to a view of that patients test records.
 
 # other comments
 directions were not too clear about whether the csv data source is liable to be updated over the course of the apps
